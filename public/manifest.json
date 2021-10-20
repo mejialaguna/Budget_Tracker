@@ -45,6 +45,6 @@
     "short_name": "B_T",
     "theme_color": "#ffffff",
     "background_color": "#01579b",
-    "start_url": "../index.html",
+    "start_url": "index.html",
     "display": "standalone"
 }

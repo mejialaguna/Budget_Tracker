@@ -128,13 +128,13 @@ please to watch the A walkthrough video demonstrating the functionality of the a
 
   <br/>
   
-   1. Clone this https://github.com/mejialaguna/the_social_network.git .
+   1. Clone this https://github.com/mejialaguna/Budget_Tracker.git .
    2. Install node js <a href="https://nodejs.org/en/"> [ HERE ]</a>. 
    3. inside your terminal.   
    4. Install all Dependency using ----> npm i.  
-   5. Start your server using nodemon server or npm start inside your terminal.   
-   6. or click on this <a href="https://www.awesomescreenshot.com/video/5658654?key=d2e0f9782e467d4e2035f33e48a1674c"> link</a> and fallow along.
-   6. Enjoy
+   5. Start your server using node server inside your terminal. 
+   6. Or simply jus go directly to the web site just by clicking <a href="https://budget-trac-ker.herokuapp.com">here.</a>
+   7. Enjoy
 
   <br/>
   <br/>
@@ -174,13 +174,9 @@ First off , thanks for taking the time to check out my app! , contribution are w
  <br/>
 
 # Acceptance Criteria
-GIVEN a social network API
-WHEN I enter the command to invoke the application,
-THEN my server is started and the Mongoose models are synced to the MongoDB database,<br/>
-WHEN I open API GET routes in Insomnia Core for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON, <br/>
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete users and thoughts in my database,
+GIVEN a budget tracker without an internet connection
+WHEN the user inputs an expense or deposit
+THEN they will receive a notification that they have added an expense or deposit
 <br/>
-WHEN I test API POST and DELETE routes in Insomnia Core
-THEN I am able to successfully create and delete reactions to thoughts and add and r
+WHEN the user reestablishes an internet connection
+THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated

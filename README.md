@@ -55,15 +55,18 @@
   
   <br/>
   
-  ## About <img align="right" src="https://img.icons8.com/plasticine/100/000000/about.png"/></div>
+  <img align="right" src="https://img.icons8.com/plasticine/100/000000/about.png"/>
+  
+  ## About     
   ---
 
   <br/>
 
  
- My social network end point that uses a NoSQL database
- SO THAT my website can handle large amounts of unstructured data using post , get , put and delete request.
-  
+  AS AN avid traveler
+  I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+  SO THAT my account balance is accurate when I am traveling .
+    
 
   <br/>
   <br/>
@@ -150,14 +153,16 @@ please to watch the A walkthrough video demonstrating the functionality of the a
   <br/>
   <br/>
   
-  ## Acknowledgements
+
+  ##  Acknowledgements
   ---
+
 
   <br/>
 
-First off , thanks for taking the time to check out my app! , contribution are what make this open-source community such an amazing place to learn , inspire and create. Any contribution you make will benefit everyone interested in using the app and are very appriciated.
+  First off , thanks for taking the time to check out my app! , contribution are what make this open-source community such an amazing place to learn , inspire and create. Any contribution you make will benefit everyone interested in using the app and are very appriciated.
 
----
+
 
   <br/>
   <br/>

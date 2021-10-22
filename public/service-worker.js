@@ -2,6 +2,7 @@ const APP_PREFIX = "Budget_Tracker-";
 const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
+  "/",
   "./index.html",
   "./css/styles.css",
   "./js/index.js",
@@ -14,9 +15,11 @@ const FILES_TO_CACHE = [
   "./icons/icon-128x128.png",
   "./icons/icon-96x96.png",
   "./icons/icon-72x72.png",
-]; //"./manifest.json",
+  "./manifest.json",
+]; 
 // Respond with cached resources
 self.addEventListener("fetch", function (e) {
+  console.log(e.request.url);
   console.log("fetch request : " + e.request.url);
   e.respondWith(
     caches.match(e.request).then(function (request) {
@@ -26,7 +29,7 @@ self.addEventListener("fetch", function (e) {
         return request;
       } else {
         // if there are no cache, try fetching request
-        console.log("file is not cached, fetching : " + e.request.url);
+        // console.log("file is not cached, fetching : " + e.request.url);
         return fetch(e.request);
       }
 

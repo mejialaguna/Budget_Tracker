@@ -63,9 +63,7 @@
   <br/>
 
  
-  AS AN avid traveler
-  I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-  SO THAT my account balance is accurate when I am traveling .
+ HI this is an app that will help you track and manage you monthy budgey , that way you can stick to your budget and get to goal with accuracy , it also works Offline just in case you are on a dead zone , and as you get a connection back it will automatically reflect all the changes you made during the offline period.
     
 
   <br/>

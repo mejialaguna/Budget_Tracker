@@ -69,7 +69,7 @@
   <br/>
   <br/>
 
-  <details open="open">
+  <details>
   <summary>Usage Screenshots and Demo</summary>
 
   <br/> 
